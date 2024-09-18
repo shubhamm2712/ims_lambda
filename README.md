@@ -4,7 +4,7 @@ This repository contains AWS Lambda functions for API Composition, integrating w
 
 ## Architecture
 
-! [IMS Lambda][ims-lambda.jpg]
+![IMS Lambda][ims-lambda.jpg]
 
 Lambda functions act as API Composition functions in this project. API Gateway invokes these functions which in turn request the data from the microservices running in the same VPC as services in AWS Elastic Container Service.
 
