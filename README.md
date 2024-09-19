@@ -11,9 +11,9 @@ Lambda functions act as API Composition functions in this project. API Gateway i
 ## Fucntions
 
 - [**imsGenericLambda:**](/Functions/imsGenericLambda.py) Middle layer between API Gateway and Product and Customer microservices
-- **imsTransactionGetOne:** This function fetches the required information from all three microservices
-- **imsGetTransactions:** Fetches list of transactions and fills the list with names of products and customers before returning the data
-- **imsTransactionAdd:** Updates the inventory of products in the product microservice and adds the transaction in Transaction microservice, rollbacks if any product could not be updated due to any reason.
+- [**imsTransactionGetOne:**](/Functions/imsTransactionGetOne.py) This function fetches the required information from all three microservices
+- [**imsGetTransactions:**](/Functions/imsGetTransactions.py) Fetches list of transactions and fills the list with names of products and customers before returning the data
+- [**imsTransactionAdd:**](/Functions/imsTransactionAdd.py) Updates the inventory of products in the product microservice and adds the transaction in Transaction microservice, rollbacks if any product could not be updated due to any reason.
 
 ## Layers
 
